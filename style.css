@@ -1,0 +1,191 @@
+/* Reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 199, 199);
+    color: black;
+    line-height: 1.7;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*Cabeçalho*/
+#cabeçalho {
+    padding: 20px 40px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid;
+}
+
+#cabeçalho img {
+    width: 100px;
+    object-position: left;
+    border-radius: 50px;
+}
+
+#apresentação nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #5f45a5;
+    text-shadow: 2px rgb(150, 2, 2);
+}
+
+main {
+    margin: 40px;
+}
+
+.sobre_mim h2 {
+    margin-bottom: 10px;
+}
+
+.sobre_mim {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sobre_mim a {
+    text-decoration: underline;
+    color:black;
+}
+
+.sobre_mim a:hover {
+    color:#5f45a5;
+}
+
+#interesses h2 {
+    margin-bottom: 10px;
+}
+
+#interesses {
+    margin-bottom: 60px;
+}
+
+#interesses ol {
+    margin: 30px;
+}
+
+#habilidades h2 {
+    margin-bottom: 10px;
+}
+
+#habilidades {
+    margin-bottom: 60px;
+}
+
+#habilidades ul {
+    margin: 30px;
+}
+
+#habilidades table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#habilidade th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.Primeira {
+    padding: 13px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#contatos h2 {
+    margin-bottom: 10px;
+}
+
+#texto_cont {
+    line-height: 55px;
+    margin: 20px;
+}
+
+#texto_cont a {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+
+#texto_cont a:hover {
+    color: #5f45a5;
+}
+
+#texto_cont img {
+    mix-blend-mode: multiply;
+}
+
+footer {
+    background-color: #c4bebe;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+footer a:hover {
+    color: #5f45a5;
+}
+
+.footer {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+#h1 {
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+}
+
+.projetos {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.projetos img {
+    display: block;
+    margin: auto;
+    width: 768px;
+    height: 550px;
+    margin-top: 20px;
+}
+
+.projetos a {
+    text-decoration: underline;
+    color: black;
+}
+
+.projetos a:hover {
+    color: #5f45a5;
+}
