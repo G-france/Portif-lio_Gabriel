@@ -189,3 +189,76 @@ footer a:hover {
 .projetos a:hover {
     color: #5f45a5;
 }
+
+@media (max-width: 768px) {
+    body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#cabeçalho {
+    text-align: left;
+    padding: 20px 8px; 
+}
+
+#cabeçalho img {
+    width: 90px;
+}
+
+#apresentação nav {
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 12px;
+}
+
+#apresentação nav a {
+    white-space: nowrap;
+}
+nav a {
+    font-size: 15px;
+}
+
+main {
+    margin: 20px 15px;
+}
+
+.sobre_mim,
+#interesses,
+#habilidades {
+    margin-bottom: 40px;
+}
+
+#interesses ol,
+#habilidades ul {
+    margin: 20px;
+}
+
+#habilidades table {
+    display: block;
+    overflow-x: auto;
+}
+
+#habilidades th,
+#habilidades td {
+    padding: 8px;
+}
+
+#texto_cont {
+    line-height: 2;
+    margin: 15px 0;
+    overflow-wrap: anywhere;
+}
+
+.projetos {
+    margin: 10px 0 40px;
+}
+
+.projetos img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 20px 10px;
+}
+}
